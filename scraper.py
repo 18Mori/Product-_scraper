@@ -94,9 +94,9 @@ if __name__ == "__main__":
         table_data.append([
             idx,
             product['name'][:50] + '...' if len(product['name']) > 50 else product['name'],
-            f"£{product['price_gbp']:.2f}",
+            # f"£{product['price_gbp']:.2f}",
             f"KES {product['price_kes']:,.2f}"
         ])
     
-    headers = ["#", "Product Name", "Price (GBP)", "Price (KES)"]
+    headers = ["#", "Product Name", "Price (KES)"]
     print("\n" + tabulate(table_data, headers=headers, tablefmt="grid"))
