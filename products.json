@@ -1,0 +1,202 @@
+[
+  {
+    "name": "A Light in the Attic",
+    "price_gbp": 51.77,
+    "price_kes": 9062.08
+  },
+  {
+    "name": "Tipping the Velvet",
+    "price_gbp": 53.74,
+    "price_kes": 9406.92
+  },
+  {
+    "name": "Soumission",
+    "price_gbp": 50.1,
+    "price_kes": 8769.76
+  },
+  {
+    "name": "Sharp Objects",
+    "price_gbp": 47.82,
+    "price_kes": 8370.65
+  },
+  {
+    "name": "Sapiens: A Brief History of Humankind",
+    "price_gbp": 54.23,
+    "price_kes": 9492.69
+  },
+  {
+    "name": "The Requiem Red",
+    "price_gbp": 22.65,
+    "price_kes": 3964.77
+  },
+  {
+    "name": "The Dirty Little Secrets of Getting Your Dream Job",
+    "price_gbp": 33.34,
+    "price_kes": 5836.0
+  },
+  {
+    "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "price_gbp": 17.93,
+    "price_kes": 3138.56
+  },
+  {
+    "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "price_gbp": 22.6,
+    "price_kes": 3956.02
+  },
+  {
+    "name": "The Black Maria",
+    "price_gbp": 52.15,
+    "price_kes": 9128.6
+  },
+  {
+    "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "price_gbp": 13.99,
+    "price_kes": 2448.88
+  },
+  {
+    "name": "Shakespeare's Sonnets",
+    "price_gbp": 20.66,
+    "price_kes": 3616.43
+  },
+  {
+    "name": "Set Me Free",
+    "price_gbp": 17.46,
+    "price_kes": 3056.29
+  },
+  {
+    "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "price_gbp": 52.29,
+    "price_kes": 9153.11
+  },
+  {
+    "name": "Rip it Up and Start Again",
+    "price_gbp": 35.02,
+    "price_kes": 6130.08
+  },
+  {
+    "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "price_gbp": 57.25,
+    "price_kes": 10021.33
+  },
+  {
+    "name": "Olio",
+    "price_gbp": 23.88,
+    "price_kes": 4180.08
+  },
+  {
+    "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "price_gbp": 37.59,
+    "price_kes": 6579.94
+  },
+  {
+    "name": "Libertarianism for Beginners",
+    "price_gbp": 51.33,
+    "price_kes": 8985.06
+  },
+  {
+    "name": "It's Only the Himalayas",
+    "price_gbp": 45.17,
+    "price_kes": 7906.79
+  },
+  {
+    "name": "In Her Wake",
+    "price_gbp": 12.84,
+    "price_kes": 2247.58
+  },
+  {
+    "name": "How Music Works",
+    "price_gbp": 37.32,
+    "price_kes": 6532.68
+  },
+  {
+    "name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+    "price_gbp": 30.52,
+    "price_kes": 5342.38
+  },
+  {
+    "name": "Chase Me (Paris Nights #2)",
+    "price_gbp": 25.27,
+    "price_kes": 4423.39
+  },
+  {
+    "name": "Black Dust",
+    "price_gbp": 34.53,
+    "price_kes": 6044.31
+  },
+  {
+    "name": "Birdsong: A Story in Pictures",
+    "price_gbp": 54.64,
+    "price_kes": 9564.46
+  },
+  {
+    "name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+    "price_gbp": 22.5,
+    "price_kes": 3938.51
+  },
+  {
+    "name": "Aladdin and His Wonderful Lamp",
+    "price_gbp": 53.13,
+    "price_kes": 9300.14
+  },
+  {
+    "name": "Worlds Elsewhere: Journeys Around Shakespeare\u2019s Globe",
+    "price_gbp": 40.3,
+    "price_kes": 7054.32
+  },
+  {
+    "name": "Wall and Piece",
+    "price_gbp": 44.18,
+    "price_kes": 7733.49
+  },
+  {
+    "name": "The Four Agreements: A Practical Guide to Personal Freedom",
+    "price_gbp": 17.66,
+    "price_kes": 3091.3
+  },
+  {
+    "name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+    "price_gbp": 31.05,
+    "price_kes": 5435.15
+  },
+  {
+    "name": "The Elephant Tree",
+    "price_gbp": 23.82,
+    "price_kes": 4169.57
+  },
+  {
+    "name": "The Bear and the Piano",
+    "price_gbp": 36.89,
+    "price_kes": 6457.41
+  },
+  {
+    "name": "Sophie's World",
+    "price_gbp": 15.94,
+    "price_kes": 2790.22
+  },
+  {
+    "name": "Penny Maybe",
+    "price_gbp": 33.29,
+    "price_kes": 5827.25
+  },
+  {
+    "name": "Maude (1883-1993):She Grew Up with the country",
+    "price_gbp": 18.02,
+    "price_kes": 3154.31
+  },
+  {
+    "name": "In a Dark, Dark Wood",
+    "price_gbp": 19.63,
+    "price_kes": 3436.13
+  },
+  {
+    "name": "Behind Closed Doors",
+    "price_gbp": 52.22,
+    "price_kes": 9140.85
+  },
+  {
+    "name": "You can't bury them all: Poems",
+    "price_gbp": 33.63,
+    "price_kes": 5886.77
+  }
+]
