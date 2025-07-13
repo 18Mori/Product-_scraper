@@ -43,22 +43,22 @@ def scrape_products():
             
     return products
 
-# Get GBP to KES exchange rate with retries
 def get_exchange_rate():
-    api_url = "https://open.er-api.com/v6/latest/GBP"
+    api_key = "491da7f3c51c72bbab3262ff"
+    api_url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/GBP"
     max_retries = 3
     wait_time = 2  # seconds
-    
+
     for attempt in range(max_retries):
         try:
             response = requests.get(api_url, timeout=10)
             response.raise_for_status()
             data = response.json()
-            return data['rates']['KES']
+            return data['conversion_rates']['KES']
         except requests.exceptions.RequestException as e:
             print(f"API Error (Attempt {attempt+1}/{max_retries}): {e}")
             time.sleep(wait_time)
-            wait_time *= 2  # Exponential backoff
+            wait_time *= 2
         except (KeyError, json.JSONDecodeError) as e:
             print(f"Data parsing error: {e}")
             break
@@ -88,3 +88,15 @@ if __name__ == "__main__":
     except IOError as e:
         print(f"Error saving JSON file: {e}")
     
+    # Display table
+    table_data = []
+    for idx, product in enumerate(products[:10], start=1):
+        table_data.append([
+            idx,
+            product['name'][:50] + '...' if len(product['name']) > 50 else product['name'],
+            f"£{product['price_gbp']:.2f}",
+            f"KES {product['price_kes']:,.2f}"
+        ])
+    
+    headers = ["#", "Product Name", "Price (GBP)", "Price (KES)"]
+    print("\n" + tabulate(table_data, headers=headers, tablefmt="grid"))
