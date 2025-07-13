@@ -68,12 +68,12 @@ def get_exchange_rate():
 if __name__ == "__main__":
     products = scrape_products()
     if not products:
-        print("No products scraped. Exiting.")
+        print("No products scraped. 🤔Exiting.")
         exit()
         
     exchange_rate = get_exchange_rate()
     if exchange_rate is None:
-        print("Failed to get exchange rate. Exiting.")
+        print("Failed to get exchange rate. 😭Exiting.")
         exit()
         
     # Add converted prices
@@ -84,9 +84,9 @@ if __name__ == "__main__":
     try:
         with open('products.json', 'w') as f:
             json.dump(products, f, indent=2)
-        print("Data saved to products.json")
+        print("Data saved to products.json🎉")
     except IOError as e:
-        print(f"Error saving JSON file: {e}")
+        print(f"Error saving JSON file: {e}😭")
     
     # Display table
     table_data = []
@@ -97,6 +97,6 @@ if __name__ == "__main__":
             # f"£{product['price_gbp']:.2f}",
             f"KES {product['price_kes']:,.2f}"
         ])
-    
-    headers = ["#", "Product Name", "Price (KES)"]
+
+    headers = ["#", "Name", "Price (KES)"]
     print("\n" + tabulate(table_data, headers=headers, tablefmt="grid"))
